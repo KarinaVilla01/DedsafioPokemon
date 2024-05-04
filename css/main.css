@@ -538,7 +538,7 @@ button:focus {
 
 .navbar-expand-md .navbar-toggler {
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid transparent;
     border-radius: 3px;
     margin: 5px;
     cursor: pointer;
@@ -737,15 +737,15 @@ button:focus {
 }
 
 #streamers>div>div>div:nth-child(1)>div>div.overlay>div.image-content.animate.slide.delay-5 {
-    background-image: url("/img/streamers/ElDed.png");
+    background-image: url(/img/streamers/ElDed.png);
 }
 
 #streamers>div>div>div:nth-child(2)>div>div.overlay>div.image-content.animate.slide.delay-5 {
-    background-image: url("img/streamers/Maikikis.png");
+    background-image: url(/img/streamers/Maikikis.png);
 }
 
 #streamers>div>div>div:nth-child(3)>div>div.overlay>div.image-content.animate.slide.delay-5 {
-    background-image: url("./img/streamers/Dano.png");
+    background-image: url(/img/streamers/Dano.png);
 }
 
 .inset {
@@ -789,10 +789,19 @@ button:focus {
     overflow-y: scroll;
 }
 
+.coin{
+    width: 50px;
+    margin-left: 10px;
+}
+
 .comodin{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+}
+
+.comodin img{
+    width: 100%;
 }
 
 .pokes {
@@ -936,6 +945,10 @@ button:focus {
 
 .delay-8 {
     animation-delay: 2.4s;
+}
+
+.pricing-details img{
+    width: 100%;
 }
 
 /* ==========================================================================
