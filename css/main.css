@@ -737,15 +737,15 @@ button:focus {
 }
 
 #streamers>div>div>div:nth-child(1)>div>div.overlay>div.image-content.animate.slide.delay-5 {
-    background-image: url(img/streamers/ElDed.png);
+    background-image: url("img/streamers/ElDed.png");
 }
 
 #streamers>div>div>div:nth-child(2)>div>div.overlay>div.image-content.animate.slide.delay-5 {
-    background-image: url(img/streamers/Maikikis.png);
+    background-image: url('img/streamers/Maikikis.png' );
 }
 
 #streamers>div>div>div:nth-child(3)>div>div.overlay>div.image-content.animate.slide.delay-5 {
-    background-image: url(img/streamers/Dano.png);
+    background-image: url('/img/streamers/Dano.png');
 }
 
 .inset {
