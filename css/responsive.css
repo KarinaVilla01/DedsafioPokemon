@@ -291,6 +291,12 @@
     background: #191c1e;
   }
 
+  .fontPoke{
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
   .navbar {
     padding: 0;
   }
