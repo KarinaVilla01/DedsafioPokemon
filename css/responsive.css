@@ -165,6 +165,10 @@
     width: 100px; } }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  #lightboxOverlay{
+    width: 100%;
+  }
+  
   .fontPoke{
     font-size: 40px;
     line-height: 60px;
