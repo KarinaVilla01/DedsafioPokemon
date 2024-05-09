@@ -839,7 +839,7 @@ button:focus {
 
 .wrap:hover .image-content {
     width: 50vmin;
-    background-position-x: 200px;
+    background-position-x: 150px;
 }
 
 .wrap:hover h1 {
